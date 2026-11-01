@@ -1,0 +1,53 @@
+.about-section {
+  padding: 4rem 2rem;
+  background-color: #161b22;
+  color: #f0f6fc;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.about-subtitle {
+  color: #8b949e;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.about-card {
+  background-color: #21262d;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #30363d;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+}
+
+.about-card h3 {
+  color: #61dafb;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.about-card p {
+  color: #c9d1d9;
+  line-height: 1.6;
+}

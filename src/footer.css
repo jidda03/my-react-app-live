@@ -1,0 +1,21 @@
+.footer {
+  background-color: #0d121f; /* Dark background matching the image */
+  color: #ffffff;
+  text-align: center;
+  padding: 3rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin: 0 0 0.8rem 0;
+}
+
+.footer p {
+  color: #9ca3af; /* Light muted gray text */
+  font-size: 0.95rem;
+  margin: 0;
+}
